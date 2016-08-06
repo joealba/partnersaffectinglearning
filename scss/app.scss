@@ -4,6 +4,8 @@
 @import 'foundation';
 @import 'motion-ui';
 
+$menu-item-background-active: #333;
+
 @include foundation-global-styles;
 @include foundation-grid;
 // @include foundation-flex-grid;
@@ -18,7 +20,7 @@
 // @include foundation-button-group;
 @include foundation-callout;
 // @include foundation-close-button;
-// @include foundation-menu;
+@include foundation-menu;
 // @include foundation-menu-icon;
 // @include foundation-drilldown-menu;
 // @include foundation-dropdown;
